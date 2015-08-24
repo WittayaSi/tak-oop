@@ -1,8 +1,8 @@
 <?php
 
-include 'Toyata.php';
+include 'Toyota.php';
 
-$t = new Toyata('Revo');
+$t = new Toyota('Revo');
 
 $t->setColor('เหลือง','dd');
 $t->setEngine('3000');
@@ -12,5 +12,5 @@ echo "<br>";
 echo "เครื่องยนต์ ";
 echo $t->getEngine();
 echo "<br>";
-echo Toyata::findName();
+echo Toyota::findName(); //call static function from toyota class
 
