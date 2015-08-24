@@ -26,4 +26,8 @@ class Car {
     public function getColor(){
         return $this->color; //return color value
     }
+    
+    public static function findName(){
+        return "hello";
+    }
 }
