@@ -1,0 +1,112 @@
+[
+    {
+        "name": "weotch/phpthumb",
+        "version": "1.0.5",
+        "version_normalized": "1.0.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/weotch/PHPThumb.git",
+            "reference": "f5c1d2ef2e9de3bded7483778618bf8cac2511c3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/weotch/PHPThumb/zipball/f5c1d2ef2e9de3bded7483778618bf8cac2511c3",
+            "reference": "f5c1d2ef2e9de3bded7483778618bf8cac2511c3",
+            "shasum": ""
+        },
+        "replace": {
+            "dannytrue/phpthumb": "dev-master#2d8898f62e75a743e248dd5906a038d574e0dfe0"
+        },
+        "time": "2015-05-12 22:56:19",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "src/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Robert Reinhard"
+            }
+        ],
+        "description": "Fork of PHPThumb that adds auto-image rotation based on EXIF data and composer support"
+    },
+    {
+        "name": "datatables/datatables",
+        "version": "1.10.8",
+        "version_normalized": "1.10.8.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/DataTables/DataTables.git",
+            "reference": "953d1fc6ca0f7ebc294fe7bdfda0392dd9e903dc"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/DataTables/DataTables/zipball/953d1fc6ca0f7ebc294fe7bdfda0392dd9e903dc",
+            "reference": "953d1fc6ca0f7ebc294fe7bdfda0392dd9e903dc",
+            "shasum": ""
+        },
+        "time": "2015-08-12 19:17:46",
+        "type": "library",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "DataTables is a plug-in for the jQuery Javascript library. It is a highly flexible tool, based upon the foundations of progressive enhancement, which will add advanced interaction controls to any HTML table.",
+        "homepage": "http://www.datatables.net/"
+    },
+    {
+        "name": "ghunti/highcharts-php",
+        "version": "v3.0.2",
+        "version_normalized": "3.0.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ghunti/HighchartsPHP.git",
+            "reference": "60efed11be137740f8e8671258808ed07a7458db"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/ghunti/HighchartsPHP/zipball/60efed11be137740f8e8671258808ed07a7458db",
+            "reference": "60efed11be137740f8e8671258808ed07a7458db",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2015-08-12 00:05:14",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Ghunti\\HighchartsPHP\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-3.0"
+        ],
+        "authors": [
+            {
+                "name": "Gonçalo Queirós",
+                "email": "mail@goncaloqueiros.net",
+                "homepage": "http://goncaloqueiros.net",
+                "role": "Developer"
+            }
+        ],
+        "description": "A php wrapper for highcharts and highstock javascript libraries",
+        "homepage": "http://goncaloqueiros.net/highcharts.php",
+        "keywords": [
+            "charts",
+            "highcharts",
+            "highstock",
+            "javascript",
+            "php"
+        ]
+    }
+]
